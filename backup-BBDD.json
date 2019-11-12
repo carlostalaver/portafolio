@@ -1,0 +1,19 @@
+[ {
+  "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+  "nombre" : "Carlos Talavera",
+  "subtitulo" : "Software Dev",
+  "twitter" : "@carlostalaver21",
+  "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-abc32.appspot.com/o/team-1.jpg?alt=media&token=6ba8d229-9ce8-42d6-9377-17971f7eaa8b"
+}, {
+  "frase" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+  "nombre" : "Angelina B. Widow",
+  "subtitulo" : "Founder / CEO",
+  "twitter" : "@angelinawidow",
+  "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-abc32.appspot.com/o/team-2.jpg?alt=media&token=2d6cc207-cf23-4670-8a2a-1d16a388e1cd"
+}, {
+  "frase" : "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "nombre" : "Patrick Anderson",
+  "subtitulo" : "Art Director",
+  "twitter" : "@patrickanderson",
+  "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-abc32.appspot.com/o/team-3.jpg?alt=media&token=50855294-ee4b-4bd8-8e9f-207053fd274a"
+} ]
