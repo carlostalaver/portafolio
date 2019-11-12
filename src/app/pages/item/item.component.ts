@@ -10,15 +10,17 @@ import { DetalleProducto } from '../../interfaces/info-pagina-interface';
 })
 export class ItemComponent implements OnInit {
 
+  producto: DetalleProducto = null;
+  productoId: string = null;
   constructor(private route: ActivatedRoute, public productoService: ProductosService) { }
 
   ngOnInit() {
     this.route.params
       .subscribe( parametroUrl => {
-        console.log(parametroUrl);
+        this.productoId = parametroUrl.id;
         this.productoService.getProductId(parametroUrl.id)
           .subscribe((produc: DetalleProducto) => {
-              console.log('el producto es  ', produc);
+            this.producto = produc;
           });
       });
   }

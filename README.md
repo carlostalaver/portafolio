@@ -31,3 +31,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 la cuenta es carttux28@gmail.com 
 
+## Tips interesantes de este proyecto
+* **Para las animaciones** con `animated`, se de ir a [animated](https://daneden.github.io/animate.css/) descargar el codigo css y copiar el codigo que se desea para una animación en particular, para ver ejemplo revisar el archivo style.css de este proyecto.
+
+* **Evento (keyup.enter)** se dispara despues que se pulsa el bonton ENTER, **(keyup.space)**, **(keyup.spacebar)**
+
+```
+<input (keydown.enter)="...">
+<input (keydown.a)="...">
+<input (keydown.esc)="...">
+<input (keydown.alt)="...">
+<input (keydown.shift.esc)="...">
+<input (keydown.shift.arrowdown)="...">
+<input (keydown.f4)="...">
+```
+
+
